@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".SignInScreen">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign In Page"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="24dp"/>
+
+            <EditText
+                android:id="@+id/emailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="example@gmail.com" />
+            <EditText
+                android:id="@+id/passText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter password" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/signUpButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:text="Sign Up"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/signInButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="29dp"
+                        android:gravity="end"
+                        android:padding="10dp"
+                        android:text="Sign In"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

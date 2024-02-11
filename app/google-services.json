@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163761298726",
+    "project_id": "manavata-android-app",
+    "storage_bucket": "manavata-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163761298726:android:34583dfbd243ab4e0735e7",
+        "android_client_info": {
+          "package_name": "com.manavata.manavata_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN7DpFjEb8MFsK1iiAYu_JF3BsrObH_jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
